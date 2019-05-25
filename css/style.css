@@ -167,12 +167,14 @@ main {
 .my_header {
   height: 655px;
   background-image: url(../img/headerImage.png);
+  background-size: 100%;
 }
 
 .my_header .overlay {
   height: 100%;
   background-image: url(../img/overlay.png);
   margin: 0;
+  background-size: 100%;
 }
 
 .my_hero_col {
@@ -295,7 +297,7 @@ main {
 }
 
 .my_video_section .my_video_col {
-  height: 550px;
+  height: 632px;
   width: 100%;
   margin: 0;
   padding: 0;
