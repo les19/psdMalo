@@ -4,8 +4,10 @@
   font-weight: normal;
 }
 
-@mixin rob {
-  font-family: 'Roboto Black', arial;
+@mixin roblight {
+  font-family: 'Roboto',
+  sans-serif;
+  font-weight: 400
 }
 
 $color-button: #fff;
