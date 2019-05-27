@@ -7,7 +7,22 @@
 @mixin roblight {
   font-family: 'Roboto',
   sans-serif;
+  font-weight: 300
+}
+@mixin robblack {
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: 900
+}
+@mixin pairreg {
+  font-family: 'Playfair Display',
+  serif;
   font-weight: 400
+}
+@mixin pairbold {
+  font-family: 'Playfair Display',
+    serif;
+  font-weight: 900
 }
 
 $color-button: #fff;

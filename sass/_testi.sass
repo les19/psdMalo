@@ -1,0 +1,102 @@
+.my_testimonials_section
+  padding-top: 0px
+  background: url(../img/testiback.jpg)
+    size: cover
+  padding-bottom: 70px
+  padding-top: 52px
+
+  .head
+    text-align: center
+    +pairreg
+    font-size: 100px
+    color: #ebeaef
+    line-height: 100%
+    
+  .testi_slick_container
+    .container-fluid
+      .row
+        display: flex
+        justify-content: center
+        margin: 0 204px
+        .my_testi_col
+          text-align: center
+          
+          p
+            +pairreg
+            font-size: 16px
+            line-height: 26px
+            color: #e1dfe6
+          .testi_name_title
+            color: #ebeaef
+            text-transform: uppercase
+            +robblack
+            font-size: 14px
+            margin: 0
+            line-height: 22px
+            letter-spacing: 2px
+          span
+            color: #bebbc8
+            +roblight
+            font-size: 14px
+            line-height: 22px
+            text-transform: uppercase
+  .my_img_dots_container
+    .row
+      margin-top: 45px
+      height: 70px
+      
+      .col-md-4
+        height: 100%
+        .dots_slick_container
+          height: 100%
+          display: flex
+          justify-content: center
+          align-items: flex-end
+          .imgContainer
+            display: flex
+            justify-content: center
+            align-items: flex-end
+            height: 70px
+            img
+              padding: 0 10px
+              height: 45px
+              transition-property: all
+              transition: .3s
+              &:hover
+                height: 49px
+                width: 70px
+    .my_arrow
+      background: transparent
+      height: 30px
+      width: 35px
+      margin-top: 30px
+      cursor: pointer
+      transition: .3s
+    .my_next_arrow
+      .arrow_picture
+        height: 30px
+        width: 30px
+        background: rgba(#ebeaef,.7)
+        transition: .3s
+        margin: 0
+        clip-path: polygon(50% 0%,100% 50%,50% 100%,42% 100%,92% 50%,42% 0%)
+    .my_prev_arrow
+      .arrow_picture
+        height: 30px
+        width: 30px
+        background: rgba(#ebeaef,.7)
+        transition: .3s
+        margin: 0
+        clip-path: polygon(50% 0%,0% 50%,50% 100%,58% 100%,8% 50%,58% 0%)
+    
+.slick-current 
+  img
+    height: 68px !important
+    width: 70px !important
+    padding: 0 !important
+
+
+.slick-disabled
+  transition: .3s
+  z-index: -999
+

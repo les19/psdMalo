@@ -1,3 +1,17 @@
 .slick-dots{
   right: -4px;
 }
+
+.my_next_arrow:hover .arrow_picture {
+  background: #0ba399 !important;
+  margin-left: 7px !important;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 22% 100%, 92% 50%, 22% 0%) !important;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 22% 100%, 92% 50%, 22% 0%) !important;
+}
+.my_prev_arrow:hover .arrow_picture {
+  background: #0ba399 !important;
+  margin-left: -7px !important;
+  clip-path: polygon(50% 0%, 0% 50%, 50% 100%, 78% 100%, 8% 50%, 78% 0%) !important;
+  -webkit-clip-path: polygon(50% 0%, 0% 50%, 50% 100%, 78% 100%, 8% 50%, 78% 0%) !important;
+}
+
