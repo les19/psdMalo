@@ -1121,4 +1121,16 @@ main {
     left: 145px;
   }
 }
+
+@media (min-width: 1700.98px) {
+  .my_expert_section {
+    margin-top: 50px;
+  }
+  .my_team_section {
+    max-height: 812px;
+  }
+  .my_team_section .container-fluid {
+    max-height: 812px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
