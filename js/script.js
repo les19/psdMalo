@@ -8,6 +8,16 @@ $(document).ready(function () {
     arrows: false,
     appendDots: $('.my_dots_append')
   });
+  // $('.team_img-row').slick({
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   // fade: true,
+  //   // cssEase: 'linear',
+  //   arrows: false
+
+    
+  // });
   $('.testi_slick_container').slick({
     slidesToShow: 1,
     slidesToScroll: 1,

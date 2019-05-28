@@ -244,14 +244,6 @@ main {
   margin: 0 auto;
 }
 
-.my_hero_section .container {
-  height: 100%;
-}
-
-.my_hero_section .container .row {
-  height: 100%;
-}
-
 .my_story_section .container {
   padding-top: 70px;
   padding-bottom: 80px;
@@ -388,6 +380,10 @@ main {
   max-height: 782px;
   padding-top: 71px;
   padding-bottom: 70px;
+}
+
+.my_team_section .container-fluid .title_row {
+  height: 100%;
 }
 
 .my_team_section .container-fluid .title_row .my_team-col {
@@ -548,6 +544,7 @@ main {
 
 .my_works_section .container-fluid .my_photo_links .photo_link_item .link .img-fluid {
   height: 100%;
+  width: 100%;
 }
 
 .my_testimonials_section {
@@ -556,6 +553,7 @@ main {
   background-size: cover;
   padding-bottom: 70px;
   padding-top: 52px;
+  height: 100%;
 }
 
 .my_testimonials_section .head {
@@ -1024,5 +1022,72 @@ main {
 
 .my_footer .footer_container .extrafooter .left_col {
   text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  .my_hero_section .my_cont {
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+  }
+  .my_hero_section .slick-container {
+    margin-bottom: 0  !important;
+  }
+  .my_hero_section .slick-container .container-fluid .row .my_hero_col {
+    height: 500px;
+    margin-top: 0;
+  }
+  .my_header {
+    height: 700px;
+  }
+  .my_video_section .my_video_col {
+    height: 132px;
+  }
+  .my_hero_col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .my_story_section .my_story_img-container {
+    margin-bottom: 20px;
+  }
+  .my_story_section .my_story_img-container img {
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+  }
+  .my_story_section .container .row .text_col {
+    text-align: center;
+  }
+  .my_team_section {
+    max-height: 1200px;
+  }
+  .my_team_section .container-fluid {
+    max-height: 1200px;
+  }
+  .my_team_section .container-fluid .team_img-row {
+    padding: 0 20px;
+  }
+  .my_team_section .container-fluid .team_img-row .img_col {
+    margin-bottom: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .my_works_section .container-fluid .head_section {
+    padding: 70px 0;
+  }
+  .my_testimonials_section {
+    height: 720px;
+  }
+  .my_testimonials_section .testi_slick_container .container-fluid .row {
+    margin: 0px 10px !important;
+  }
+  .my_prev_arrow {
+    margin-bottom: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
