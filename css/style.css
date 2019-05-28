@@ -1089,5 +1089,27 @@ main {
   .my_prev_arrow {
     margin-bottom: 30px;
   }
+  .my_footer .footer_container .extrafooter {
+    text-align: center;
+  }
+  .my_footer .footer_container .extrafooter .col {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .my_clien_section .main_container .main_row .main_col2 {
+    padding-left: 0;
+  }
+  .my_clien_section .main_container .main_row .main_col2 .main_title {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  .my_clien_section .main_container .main_row .main_col2 .sub_container {
+    padding-left: 20px;
+  }
+  .my_clien_section .main_container .main_row .main_col2 .sub_container .row {
+    margin-left: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
