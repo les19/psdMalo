@@ -1081,10 +1081,13 @@ main {
     padding: 70px 0;
   }
   .my_testimonials_section {
-    height: 720px;
+    height: 750px;
   }
   .my_testimonials_section .testi_slick_container .container-fluid .row {
     margin: 0px 10px !important;
+  }
+  .my_testimonials_section .testi_slick_container .container-fluid .row .imgContainer img {
+    height: auto !important;
   }
   .my_prev_arrow {
     margin-bottom: 30px;
@@ -1110,6 +1113,12 @@ main {
   }
   .my_clien_section .main_container .main_row .main_col2 .sub_container .row {
     margin-left: 10px;
+  }
+  .my_works_section .container-fluid .head_section .link_col {
+    padding-right: 0;
+  }
+  .my_works_section .container-fluid .head_section .link_col .arrow {
+    left: 145px;
   }
 }
 /*# sourceMappingURL=style.css.map */
