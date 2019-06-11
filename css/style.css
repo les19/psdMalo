@@ -12,16 +12,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 30px;
-  color: #00e0d0;
-  /* Old browsers */
-  color: -moz-linear-gradient(left, #00e0d0 27%, #008C99 60%);
-  /* FF3.6-15 */
-  color: -webkit-linear-gradient(left, #00e0d0 27%, #008C99 60%);
-  /* Chrome10-25,Safari5.1-6 */
-  color: linear-gradient(to right, #00e0d0 27%, #008C99 60%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e0d0', endColorstr='#008C99',GradientType=1 );
-  /* IE6-9 */
 }
 
 .my_navbar .logo .logo-img {
@@ -29,19 +19,24 @@ body {
   margin-right: 10px;
 }
 
-.my_navbar .collapse {
-  position: absolute;
-  right: 0;
+.my_navbar .collapse ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .my_navbar .collapse li {
   text-transform: uppercase;
-  padding-right: 22px;
+  padding-right: 42px;
 }
 
 .my_navbar .collapse li a {
   font-family: 'Roboto Black', arial;
-  font-size: 13px;
+  font-size: 1em;
   color: #fff;
   -webkit-transition: .3s;
   transition: .3s;
@@ -286,11 +281,12 @@ main {
 
 .my_story_section .my_story_img-container {
   padding: auto 0;
-  width: 300px;
+  width: 80%;
+  padding-top: 20px;
 }
 
 .my_story_section .my_story_img-container img {
-  width: 270px;
+  width: 100%;
 }
 
 .my_story_section button {
@@ -381,7 +377,6 @@ main {
 }
 
 .my_team_section .container-fluid {
-  background-image: url(../img/teamover.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;

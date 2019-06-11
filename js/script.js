@@ -42,13 +42,13 @@ $(document).ready(function () {
   });
 });
 
-// poster frame click event
-$(document).on('click', '.js-videoPoster', function (ev) {
-  ev.preventDefault();
-  var $poster = $(this);
-  var $wrapper = $poster.closest('.js-videoWrapper');
-  videoPlay($wrapper);
-});
+// // poster frame click event
+// $(document).on('click', '.js-videoPoster', function (ev) {
+//   ev.preventDefault();
+//   var $poster = $(this);
+//   var $wrapper = $poster.closest('.js-videoWrapper');
+//   videoPlay($wrapper);
+// });
 
 // play the targeted video (and hide the poster frame)
 function videoPlay($wrapper) {
@@ -76,19 +76,4 @@ function videoStop($wrapper) {
   $iframe.attr('src', '');
 }
 
-jQuery(function ($) {
-  $('a[href*="#"]').on('click.smoothscroll', function (e) {
-    var hash = this.hash,
-      _hash = hash.replace(/#/, ''),
-      theHref = $(this).attr('href').replace(/#.*/, '');
-    if (theHref && location.href.replace(/#.*/, '') != theHref) return;
-    var $target = _hash === '' ? $('body') : $(hash + ', a[name="' + _hash + '"]').first();
-    if (!$target.length) return;
-    e.preventDefault();
-    $('html, body').stop().animate({
-      scrollTop: $target.offset().top - 0
-    }, 400, 'swing', function () {
-      window.location.hash = hash;
-    });
-  });
-});
+
